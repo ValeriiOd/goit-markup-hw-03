@@ -9,12 +9,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/style.css">
     <title>index.html</title>
 </head>
 <body>
     <header class="top-line">
+    <div class="container">
+        <section>
     <a class="logo" href="">Web<span class="logo-color-top">Studio</span></a>
     <nav>
          <ul class="site-nav list-style">
@@ -27,34 +31,40 @@
             <li><a href="mailto:info@devstudio.com" class="contacts accent">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="contacts accent">+38 096 111 11 11</a></li>  
         </ul>
+        </section>
+        </div>
     </header>
     <main>
         <section class="header-style">
+            <div class="container">
             <h1 class="main-header"> Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="main-button">Заказать улугу</button>
+            </div>
         </section>
         <!--Особенности-->
-        <div class="middle-bg">
+        <div class="container">
         <section class="features">
             <ul class="list-style">
-                <li>
+                <li class="item">
                     <h3 class="tittle">Внимание к деталям</h3>
                     <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
+              </li>
+                <li class="item">
                     <h3 class="tittle">Пунктуальность</h3>
                     <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="tittle">Планирование</h3>
                     <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="tittle">Современные технологии</h3>
                     <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
+        </div>
+        <div class="container">
         <section class="work">
             <h2 class="tittle">Чем мы занимаемся</h2>
             <ul class="list-style">
@@ -64,9 +74,9 @@
             </ul>
         </section>
         </div>
-        <section>
+        <section class="team">
             <h2 class="team-tittle">Наша команда</h2>
-            <ul class="team list-style" >
+            <ul class="list-style" >
                 <li>
                     <img src="./images/img3.jpg" alt="фото члена команды" width="270">
                     <h3 class="tittle">Игорь Демьяненко</h3>
