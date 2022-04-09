@@ -18,7 +18,7 @@ h4,
 h5,
 h6,
 p,
-ul,{
+ul {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -30,6 +30,10 @@ ul,{
     margin-right: auto;
 }
 /* header */
+.page-header {
+    display: flex;
+    align-items: center;
+}
 .logo {
     text-decoration: none;
     font-family: Raleway, cursive;
@@ -44,11 +48,7 @@ ul,{
 .logo-color-footer {
     color: var(--additional-color);
 }
-.top-line{
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-}
+
 /* buttons header */
 .button .nav {
     font-size: 16px;
@@ -81,6 +81,12 @@ ul,{
     color: var(--secondary-color-text);
     text-decoration: none;
 }
+.contacts-style {
+    display:flex;
+}
+.contacts-style .item + .item {
+   margin-left: 50px;
+}
 .list-style {
     list-style-type: none;
     padding-left: 0;
@@ -90,7 +96,7 @@ ul,{
 .contacts.accent:focus {
     color:var(--accent-color-text);
 }
-.header-style {
+.hero {
     background: #2F303A;
     text-align: center;
     margin-bottom: 52px;
@@ -120,8 +126,17 @@ ul,{
     border-radius: 4px;
 
 }
-
+.site-nav {
+    display: flex;
+}
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom:32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -205,9 +220,6 @@ margin-right: 0;
 .footer {
     background-color: #2F303A;
 } 
-.logo {
-    margin-bottom: 20px;
-}
 .footer .adress {
     font-size: 14px;
     line-height: 1.7;
