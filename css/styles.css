@@ -24,7 +24,7 @@ ul {
     margin-bottom: 0;
 }
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -49,8 +49,6 @@ ul {
 .logo-color-footer {
     color: var(--additional-color);
 }
-
-
 .contacts{
     font-weight: 500;
     font-size: 14px;
@@ -73,16 +71,21 @@ ul {
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    margin-bottom: 52px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 .main-header {
+    align-items:center;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;  
     color: var(--additional-color);
-    padding: 200px 257px 0px 257px ;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .main-button{
@@ -99,7 +102,7 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-top: 30px;
-    margin-bottom: 200px;
+   
 
 }
 .site-nav {
@@ -135,7 +138,8 @@ ul {
     color:var(--accent-color-text);
 }
 .features {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .features .list-style{
     display: flex;
@@ -161,14 +165,17 @@ ul {
 margin-right: 0;
 }
 /* work */
+.our-work {
+    padding-bottom: 94px;
+}
 .work {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 94px;
 }
 .team {
     background: #F5F4FA;
+        padding-bottom: 94px;
+        padding-top: 94px;
 }
 .work-tittle {
     font-weight: 700;
@@ -189,15 +196,20 @@ margin-right: 0;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 94px;
+
     
     color: var(--main-color-text);
 }
 .team-box {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
-    padding-bottom: 94px;
+}
+.team .item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--additional-color);
 }
 .team-box .item + .item {
     margin-left: 30px;
@@ -216,6 +228,12 @@ margin-right: 0;
     line-height: 1.9;
     color: var(--secondary-color-text)
 }
+.team .description {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    
+}
 .footer {
     background-color: var(--background-color);
     display: flex;
@@ -223,15 +241,16 @@ margin-right: 0;
 .footer .box {
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer .logo {
-    margin-top: 60px;
     margin-bottom: 20px;
 }
 .footer .box-style {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+
 }
 .footer .adress {
     font-size: 14px;
@@ -256,7 +275,6 @@ margin-right: 0;
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: #ececec;
-    margin-bottom: 94px;
 }
 .portfolio-nav {
     display: flex;
@@ -267,7 +285,6 @@ margin-right: 0;
     color: var(--secondary-color-text) ;
     font-size: 16px;
     line-height: 1.9;
-    padding-bottom: 20px;
     margin-left: 24px;
 }
 .portfolio-nav .tittle {
@@ -277,13 +294,18 @@ margin-right: 0;
     color: var(--main-color-text);
     margin-bottom: 4px;
     margin-left: 24px;
-    margin-top: 20px;
     
+}
+.main-section{
+    padding-top: 94px;
+    padding-bottom: 94px ;
 }
 .portfolio-nav .item {
     border-style: solid;
     border-width: 1px;
     border-color: #eeeeee;
+    padding-top: 20px ;
+    padding-bottom: 20px;
 }
 .portfolio-nav .style{
     margin-right: 30px;
