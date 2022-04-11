@@ -279,7 +279,6 @@ margin-right: 0;
 .portfolio-nav {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 .portfolio-nav .categories {
     color: var(--secondary-color-text) ;
@@ -347,11 +346,3 @@ margin-right: 0;
 .nav:hover {
     color: var(--additional-color);
     background-color: var(--accent-color-text);
-
-   /* font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-}*/
