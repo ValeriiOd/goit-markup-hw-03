@@ -346,3 +346,4 @@ margin-right: 0;
 .nav:hover {
     color: var(--additional-color);
     background-color: var(--accent-color-text);
+}
