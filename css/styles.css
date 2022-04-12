@@ -171,6 +171,7 @@ margin-right: 0;
 .work {
     display: flex;
     list-style-type: none;
+    padding-left: 0;
 }
 .team {
     background: #F5F4FA;
@@ -203,6 +204,7 @@ margin-right: 0;
 .team-box {
     display: flex;
     list-style-type: none;
+    padding-left: 0;
 }
 .team .item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -217,7 +219,7 @@ margin-right: 0;
 .team .tittle {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
     margin-bottom: 10px;
@@ -225,10 +227,11 @@ margin-right: 0;
 .team .text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     color: var(--secondary-color-text)
 }
 .team .description {
+    display: block;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px ;
@@ -284,7 +287,7 @@ margin-right: 0;
     color: var(--secondary-color-text) ;
     font-size: 16px;
     line-height: 1.9;
-    margin-left: 24px;
+    
 }
 .portfolio-nav .tittle {
     font-size: 18px;
@@ -292,7 +295,6 @@ margin-right: 0;
     letter-spacing: 0.06em;
     color: var(--main-color-text);
     margin-bottom: 4px;
-    margin-left: 24px;
     
 }
 .main-section{
@@ -300,11 +302,11 @@ margin-right: 0;
     padding-bottom: 94px ;
 }
 .portfolio-nav .item {
+    display: block;
     border-style: solid;
     border-width: 1px;
     border-color: #eeeeee;
-    padding-top: 20px ;
-    padding-bottom: 20px;
+    padding: 20px 24px ;
 }
 .portfolio-nav .style{
     margin-right: 30px;
